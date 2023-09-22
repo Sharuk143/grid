@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        
+        #imgs {
+           
+            display: grid ;
+            grid-template-columns: 45% 45%;
+            grid-template-rows: 20% 20%;
+            column-gap: 10px;
+            row-gap: 10px;
+            
+            padding: 0px 8px;
+            
+            
+            
+        }
+        .imgs div {
+            padding: 130px;
+            margin-bottom: 128px;
+        }
+        .nav1 {
+            border:5px black;
+            
+            text-align: center;
+            padding: 20px;
+            width: 280px;
+            border: 5px;
+            margin-bottom: 20px;
+            margin-left: 550px;
+            background-color: whitesmoke;
+            border-color: 5px;
+            
+        }
+        
+        .nav1 a {
+            justify-content: center;
+            text-decoration: none;
+            background-color: rgb(193, 201, 201);
+            border-color: 10pxpx black;
+            color: black;
+            padding: 5px;
+        }
+        .nav1 a:hover {
+            background-color: antiquewhite;
+        }
+
+
+        
+        
+       
+
+
+    
+        
+    </style>
+</head>
+<body>
+    
+    <h2 style="text-align: center; font-size: x-large ;">PHOTOGRAPHER</h2>
+    <h1 style="text-align: center; opacity: 0.4;"><span>John Doe</span></h1>
+    <nav>
+    <div class="nav1">
+        
+        <a href="#home" >Home</a>
+        <a href="#portfolio" >Portfolio</a>
+        <a href="contacts" >contacts</a>
+        <a href="Weddding">Weddings</a>
+        
+    </div>
+    </nav>
+   
+    
+    <div id="imgs">
+        
+        <img src="./wedding.jpg" width="100%" height="100% "  style= "grid-column: 1/2; grid-row: 1/2;" >
+        <img src="./rocks.jpg" width="100%"  height="100% "  style="grid-column: 1/2; grid-row:  2/6;" >
+        <img src="./falls2.jpg" width="100%" height="100% "  style="grid-column: 1/2; grid-row:  6/7;">
+        <img src="./paris.jpg" width="100%"   height="100% " style="grid-column: 1/2; grid-row: 7/8;"  >
+        <img src="./nature.jpg" width="100%"  height="100% " style="grid-column: 1/2; grid-row: 8/9;">
+        <img src="./mist.jpg" width="100%"    height="100% " style="grid-column: 1/2; grid-row: 9/10;">
+        <img src="./paris (1).jpg" width="100%" height="100% "style="grid-column: 1/2; grid-row: 10/11;">
+        <img src="./underwater.jpg" width="100%" height="100% " style="grid-column: 2/3; grid-row: 1/3;" >
+        <img src="./ocean.jpg" width="100%"   height="100% " style="grid-column: 2/3; grid-row: 3/4;">
+        <img src="./wedding.jpg" width="100%"   height="100% " style="grid-column: 2/3; grid-row: 4/5;">
+        <img src="./mountainskies.jpg" width="100%"  height="100% " style="grid-column: 2/3; grid-row:5/7;"  >
+        <img src="./rocks.jpg" width="100%"  height="100% " style="grid-column: 2/3; grid-row: 7/10;" >
+        <img src="./underwater (1).jpg" width="100%"  height="100% " style="grid-column: 2/3; grid-row: 10/12;" >
+        
+        
+    
+    
+     
+        
+    </div>
+    
+</body>
+</html>
